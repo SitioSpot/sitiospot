@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<!-- ENGLISH VERSION (/en/). Same structure as the Spanish version (/es/).
+     "../" means "go up one folder", because this file lives inside en/. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SitioSpot | Websites for small businesses in Querétaro</title>
+  <meta name="description" content="SitioSpot builds modern, accessible, practical websites for small businesses and entrepreneurs in Querétaro. Your business deserves to be online.">
+  <meta name="theme-color" content="#0a0c10">
+  <meta property="og:title" content="SitioSpot | Your business deserves to be online">
+  <meta property="og:description" content="Modern, accessible websites for small businesses.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Marks that JavaScript works, so the mobile menu can start collapsed. -->
+  <script>document.documentElement.className += " js";</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== A. NAVIGATION ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="SitioSpot, home">
+        <img src="../images/logo-mark.svg" alt="" width="36" height="36">
+        <span class="wordmark">Sitio<span>Spot</span></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"
+              aria-label="Open menu" data-label-open="Open menu" data-label-close="Close menu">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+
+      <nav id="nav-menu" class="nav" aria-label="Main">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Language switcher: saves the choice, then follows the link -->
+        <div class="lang-switch" role="group" aria-label="Language">
+          <a href="../es/" lang="es" hreflang="es" aria-label="Español" data-lang-choice="es">ES</a>
+          <a href="./" lang="en" aria-current="true" data-lang-choice="en">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== B. HERO ===== -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="hero-tag">Web design for small businesses</span>
+          <h1>Your business deserves to be online.</h1>
+          <p class="lead">SitioSpot builds modern, accessible, practical websites for small businesses and entrepreneurs. So your customers can find you, see what you offer, and message you on WhatsApp.</p>
+          <div class="btn-row">
+            <!-- href is a fallback; main.js adds the pre-written message -->
+            <a class="btn btn-primary" href="https://wa.me/524426530823" data-whatsapp target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+              Message us on WhatsApp
+            </a>
+            <a class="btn btn-ghost" href="#services">See services</a>
+          </div>
+        </div>
+
+        <!-- Decorative mockup (hidden from screen readers) -->
+        <div class="mockup" aria-hidden="true">
+          <div class="mockup-bar"><span></span><span></span><span></span></div>
+          <div class="mockup-body">
+            <div class="m-line m-title"></div>
+            <div class="m-line"></div>
+            <div class="m-line short"></div>
+            <div class="m-btn"></div>
+            <div class="m-grid"><div></div><div></div><div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== C. SERVICES ===== -->
+    <section id="services" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Services</h2>
+          <p>Everything your business needs to get online, without the hassle.</p>
+        </div>
+        <div class="grid cols-3">
+          <article class="card">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18"/></svg></div>
+            <h3>Small business websites</h3>
+            <p>A professional page with your information, services, and contact details that looks great on phones and computers.</p>
+          </article>
+          <article class="card">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6z"/><path d="M9 11h6M9 15h6"/></svg></div>
+            <h3>Digital menus</h3>
+            <p>Show your menu or catalog online, easy to open and easy to share with a link.</p>
+          </article>
+          <article class="card">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+            <h3>Google Maps integration</h3>
+            <p>Help customers find your business and get there with a single tap.</p>
+          </article>
+          <article class="card">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></div>
+            <h3>WhatsApp integration</h3>
+            <p>Buttons that open a conversation with you instantly, with a message already written.</p>
+          </article>
+          <article class="card">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14-4L4 9"/><path d="M4 4v5h5"/><path d="M4 13a8 8 0 0 0 14 4l2-2"/><path d="M20 20v-5h-5"/></svg></div>
+            <h3>Website maintenance and updates</h3>
+            <p>Changes to text, prices, hours, or photos so your site is always up to date. Optional service.</p>
+          </article>
+          <article class="card card-cta">
+            <h3>Need something different?</h3>
+            <p>Tell me your idea and we'll see what's possible for your business.</p>
+            <a class="link" href="https://wa.me/524426530823" data-whatsapp target="_blank" rel="noopener">Message me on WhatsApp</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== E. PORTFOLIO (demonstration concepts, NOT real clients) ===== -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Portfolio</h2>
+          <p>These are demonstration concepts that show my style of work. They are not real client projects. Finished projects will appear here.</p>
+        </div>
+        <div class="grid cols-3">
+          <article class="card demo">
+            <div class="demo-thumb" aria-hidden="true">
+              <div class="m-line m-title"></div>
+              <div class="demo-split"><div></div><div></div></div>
+              <div class="m-line short"></div>
+            </div>
+            <div class="demo-body">
+              <span class="badge">Demonstration concept</span>
+              <h3>Restaurants and cafés</h3>
+              <p>Digital menu, opening hours, Google Maps location, and a WhatsApp button for orders or reservations.</p>
+            </div>
+          </article>
+          <article class="card demo">
+            <div class="demo-thumb" aria-hidden="true">
+              <div class="m-line m-title"></div>
+              <div class="m-line"></div>
+              <div class="m-line"></div>
+              <div class="m-btn" style="width:90px;height:26px"></div>
+            </div>
+            <div class="demo-body">
+              <span class="badge">Demonstration concept</span>
+              <h3>Professional services</h3>
+              <p>Service overview, frequently asked questions, and direct contact for consultants, salons, tradespeople, and more.</p>
+            </div>
+          </article>
+          <article class="card demo">
+            <div class="demo-thumb" aria-hidden="true">
+              <div class="m-line m-title"></div>
+              <div class="m-grid" style="margin-top:0"><div style="height:44px"></div><div style="height:44px"></div><div style="height:44px"></div></div>
+              <div class="m-line short"></div>
+            </div>
+            <div class="demo-body">
+              <span class="badge">Demonstration concept</span>
+              <h3>Local businesses</h3>
+              <p>An online storefront for shops and startups: products, location, and contact in one place.</p>
+            </div>
+          </article>
+        </div>
+        <p class="note">Want to be the first project in the portfolio? Message me on WhatsApp.</p>
+      </div>
+    </section>
+
+    <!-- ===== F. PRICING ===== -->
+    <section id="pricing" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Clear pricing</h2>
+          <p>One package to get started. No surprises: here is what's included and what's paid separately.</p>
+        </div>
+        <div class="price-wrap">
+          <div class="price-card">
+            <h3>Starter package</h3>
+            <p class="price-from">Projects starting at</p>
+            <p class="price-big">$<span data-config="prices.from">1,000</span> MXN</p>
+            <p class="price-range">Typical estimated range: $<span data-config="prices.rangeFrom">1,000</span>–$<span data-config="prices.rangeTo">3,000</span> MXN</p>
+            <ul class="checks">
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Website design</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Website development</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Responsive mobile and desktop layout</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>WhatsApp integration where applicable</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Google Maps integration where applicable</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Initial deployment and publication</li>
+            </ul>
+            <p class="callout"><strong>Important:</strong> this price covers design, development, and initial deployment only. The final quote depends on your business's requirements.</p>
+            <a class="btn btn-primary" href="https://wa.me/524426530823" data-whatsapp target="_blank" rel="noopener">Request my quote</a>
+          </div>
+
+          <div class="extras">
+            <article class="card">
+              <h3>Maintenance and small updates</h3>
+              <p class="extra-price">$<span data-config="prices.maintenanceFrom">200</span>–$<span data-config="prices.maintenanceTo">400</span> MXN per month</p>
+              <p>Optional service, not included in the initial price.</p>
+            </article>
+            <article class="card">
+              <h3>Custom domain</h3>
+              <p class="extra-price">Paid separately</p>
+              <p>Registration and renewal of the domain (for example, mybusiness.com) are paid by the customer. They are not included.</p>
+            </article>
+            <article class="card">
+              <h3>Hosting</h3>
+              <p class="extra-price">Free with GitHub Pages</p>
+              <p>GitHub Pages can be used for free static hosting, subject to its current terms and limits.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== G. HOW IT WORKS ===== -->
+    <section id="how" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>How it works</h2>
+          <p>Three simple steps, with direct communication with me.</p>
+        </div>
+        <ol class="steps">
+          <li>
+            <h3>We talk about your business</h3>
+            <p>We discuss what you do, who you want to reach, and what your website needs to show.</p>
+          </li>
+          <li>
+            <h3>Design and development</h3>
+            <p>I design and build your site so it looks professional and works well on phones.</p>
+          </li>
+          <li>
+            <h3>We review and publish</h3>
+            <p>We go over the details together, make adjustments, and publish your site online.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== D. ABOUT THE FOUNDER ===== -->
+    <section id="about" class="section alt">
+      <div class="container about-grid">
+        <aside class="card founder-card">
+          <div class="monogram" aria-hidden="true">SR</div>
+          <h3 data-config="founder">Serafin Ruiz</h3>
+          <p>Founder of SitioSpot</p>
+        </aside>
+        <div class="about-text">
+          <h2>About me</h2>
+          <p class="greeting">Hi, I'm <span data-config="founder">Serafin Ruiz</span>.</p>
+          <p>I'm the founder of SitioSpot, and my goal is to help small businesses and entrepreneurs take the next step in the digital world.</p>
+          <p>I believe every business deserves an online presence, no matter its size or budget. That's why I want to offer modern, accessible, and practical web solutions that let more people showcase their services, connect with customers, and grow their businesses.</p>
+          <p>When you work with me, you get direct communication with me throughout the process. My commitment is to listen to your ideas, understand your business's needs, and help you turn them into a professional online presence.</p>
+          <p class="closing">Your business deserves to be online. Let's make it happen!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== H. FAQ (<details> works without JavaScript) ===== -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-head"><h2>Frequently asked questions</h2></div>
+        <div class="faq">
+          <details>
+            <summary>How long does it take to build a website?</summary>
+            <p>It depends on the project and how soon we have your information (text, photos, menu, etc.). A simple site can be ready in a few days to a couple of weeks. I'll give you an estimate once I know what you need.</p>
+          </details>
+          <details>
+            <summary>Is a custom domain included?</summary>
+            <p>No. The initial price does not include registering or renewing a domain (for example, mybusiness.com); that is paid separately. In the meantime, your site can be published for free at a GitHub Pages address, and we can connect your domain later if you decide to buy one.</p>
+          </details>
+          <details>
+            <summary>Do I have to pay monthly maintenance?</summary>
+            <p>No, it's not required. It's an optional service at $200–$400 MXN per month for small changes and updates. If you don't sign up for it, future changes are quoted separately.</p>
+          </details>
+          <details>
+            <summary>Can I update my website myself?</summary>
+            <p>Your site is built with code (HTML and CSS), so changing text or prices means editing files. If you'd rather not, the maintenance service covers it. And if you're interested, I can show you how to make simple changes.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== I. CONTACT ===== -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="contact-card">
+          <div>
+            <h2>Let's talk about your website</h2>
+            <p class="muted">The fastest way to reach me is WhatsApp. Tell me about your business and I'll reply with ideas and a quote.</p>
+            <a class="btn btn-primary" href="https://wa.me/524426530823" data-whatsapp target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+              Message on WhatsApp
+            </a>
+          </div>
+          <ul class="contact-list">
+            <li><strong>WhatsApp</strong><a href="https://wa.me/524426530823" data-whatsapp target="_blank" rel="noopener"><span data-config="whatsappDisplay">+52 442 653 0823</span></a></li>
+            <!-- Email stays hidden until you add one in config.js -->
+            <li data-email-wrapper hidden><strong>Email</strong><a href="#" data-email></a></li>
+            <li><strong>Location</strong><span data-config="location">Querétaro, Mexico</span><br>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Quer%C3%A9taro%2C%20M%C3%A9xico" data-maps target="_blank" rel="noopener">View Querétaro on Google Maps</a></li>
+            <!-- Social links stay hidden until you add URLs in config.js -->
+            <li>
+              <a href="#" data-social="facebook" hidden target="_blank" rel="noopener">Facebook</a>
+              <a href="#" data-social="instagram" hidden target="_blank" rel="noopener">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== J. FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="#home" aria-label="SitioSpot, home">
+            <img src="../images/logo-mark.svg" alt="" width="36" height="36">
+            <span class="wordmark">Sitio<span>Spot</span></span>
+          </a>
+          <p class="muted" style="margin-top:1rem" data-config="slogan">Your business deserves to be online.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <p class="muted" data-config="location">Querétaro, Mexico</p>
+      </div>
+      <p class="copyright">© <span data-year>2026</span> <span data-config="businessName">SitioSpot</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- config.js FIRST (defines the data), then main.js (uses it) -->
+  <script src="../js/config.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

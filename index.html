@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- LANGUAGE CHOICE PAGE (the site's front door).
+     Paths here have no "../" because this file is in the root folder.
+     data-chooser on <body> tells main.js to jump to a saved language. -->
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SitioSpot | Español / English</title>
+  <meta name="description" content="SitioSpot: sitios web para pequeños negocios. Websites for small businesses.">
+  <meta name="theme-color" content="#0a0c10">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-chooser>
+  <main class="chooser">
+    <div class="container chooser-inner">
+      <div class="brand-big">
+        <img src="images/logo-mark.svg" alt="" width="56" height="56">
+        <span class="wordmark">Sitio<span>Spot</span></span>
+      </div>
+      <h1>Elige tu idioma / Choose your language</h1>
+      <p class="sub">Tu negocio merece estar en internet.<br>Your business deserves to be online.</p>
+
+      <div class="choice-grid">
+        <a class="choice" href="es/" lang="es" hreflang="es" data-lang-choice="es">
+          <strong>Español</strong>
+          <span>Entrar al sitio en español</span>
+        </a>
+        <a class="choice" href="en/" lang="en" hreflang="en" data-lang-choice="en">
+          <strong>English</strong>
+          <span>Enter the site in English</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

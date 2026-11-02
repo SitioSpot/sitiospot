@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<!-- SPANISH VERSION (/es/). The English version (/en/) has the same structure.
+     "../" means "go up one folder", because this file lives inside es/. -->
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SitioSpot | Sitios web para pequeños negocios en Querétaro</title>
+  <meta name="description" content="SitioSpot crea sitios web modernos, accesibles y prácticos para pequeños negocios y emprendedores en Querétaro. Tu negocio merece estar en internet.">
+  <meta name="theme-color" content="#0a0c10">
+  <meta property="og:title" content="SitioSpot | Tu negocio merece estar en internet">
+  <meta property="og:description" content="Sitios web modernos y accesibles para pequeños negocios.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Marks that JavaScript works, so the mobile menu can start collapsed. -->
+  <script>document.documentElement.className += " js";</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- ===== A. NAVIGATION ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="SitioSpot, inicio">
+        <img src="../images/logo-mark.svg" alt="" width="36" height="36">
+        <span class="wordmark">Sitio<span>Spot</span></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"
+              aria-label="Abrir menú" data-label-open="Abrir menú" data-label-close="Cerrar menú">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+
+      <nav id="nav-menu" class="nav" aria-label="Principal">
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#pricing">Precios</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <!-- Language switcher: saves the choice, then follows the link -->
+        <div class="lang-switch" role="group" aria-label="Idioma">
+          <a href="./" lang="es" aria-current="true" data-lang-choice="es">ES</a>
+          <a href="../en/" lang="en" hreflang="en" aria-label="English" data-lang-choice="en">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== B. HERO ===== -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="hero-tag">Diseño web para pequeños negocios</span>
+          <h1>Tu negocio merece estar en internet.</h1>
+          <p class="lead">SitioSpot crea sitios web modernos, accesibles y prácticos para pequeños negocios y emprendedores. Para que tus clientes te encuentren, vean lo que ofreces y te escriban por WhatsApp.</p>
+          <div class="btn-row">
+            <!-- href is a fallback; main.js adds the pre-written message -->
+            <a class="btn btn-primary" href="https://wa.me/524426530823" data-whatsapp target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+              Escríbenos por WhatsApp
+            </a>
+            <a class="btn btn-ghost" href="#services">Ver servicios</a>
+          </div>
+        </div>
+
+        <!-- Decorative mockup (hidden from screen readers) -->
+        <div class="mockup" aria-hidden="true">
+          <div class="mockup-bar"><span></span><span></span><span></span></div>
+          <div class="mockup-body">
+            <div class="m-line m-title"></div>
+            <div class="m-line"></div>
+            <div class="m-line short"></div>
+            <div class="m-btn"></div>
+            <div class="m-grid"><div></div><div></div><div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== C. SERVICES ===== -->
+    <section id="services" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Servicios</h2>
+          <p>Todo lo que tu negocio necesita para tener presencia en internet, sin complicaciones.</p>
+        </div>
+        <div class="grid cols-3">
+          <article class="card">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18"/></svg></div>
+            <h3>Sitios web para negocios</h3>
+            <p>Una página profesional con tu información, tus servicios y tus datos de contacto, que se ve bien en celular y en computadora.</p>
+          </article>
+          <article class="card">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6z"/><path d="M9 11h6M9 15h6"/></svg></div>
+            <h3>Menús digitales</h3>
+            <p>Muestra tu menú o tu catálogo en línea, fácil de abrir y de compartir con un enlace.</p>
+          </article>
+          <article class="card">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+            <h3>Integración con Google Maps</h3>
+            <p>Para que tus clientes encuentren tu negocio y lleguen con un solo toque.</p>
+          </article>
+          <article class="card">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></div>
+            <h3>Integración con WhatsApp</h3>
+            <p>Botones que abren una conversación contigo al instante, con un mensaje ya escrito.</p>
+          </article>
+          <article class="card">
+            <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14-4L4 9"/><path d="M4 4v5h5"/><path d="M4 13a8 8 0 0 0 14 4l2-2"/><path d="M20 20v-5h-5"/></svg></div>
+            <h3>Mantenimiento y actualizaciones</h3>
+            <p>Cambios de textos, precios, horarios o fotos para que tu sitio siempre esté al día. Servicio opcional.</p>
+          </article>
+          <article class="card card-cta">
+            <h3>¿Necesitas algo distinto?</h3>
+            <p>Cuéntame tu idea y vemos qué es posible para tu negocio.</p>
+            <a class="link" href="https://wa.me/524426530823" data-whatsapp target="_blank" rel="noopener">Escríbeme por WhatsApp</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== E. PORTFOLIO (demonstration concepts, NOT real clients) ===== -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Portafolio</h2>
+          <p>Estos son conceptos de demostración para mostrar el estilo de trabajo. No son proyectos de clientes reales. Aquí aparecerán los proyectos terminados.</p>
+        </div>
+        <div class="grid cols-3">
+          <article class="card demo">
+            <div class="demo-thumb" aria-hidden="true">
+              <div class="m-line m-title"></div>
+              <div class="demo-split"><div></div><div></div></div>
+              <div class="m-line short"></div>
+            </div>
+            <div class="demo-body">
+              <span class="badge">Concepto de demostración</span>
+              <h3>Restaurantes y cafés</h3>
+              <p>Menú digital, horarios, ubicación en Google Maps y botón de WhatsApp para pedidos o reservaciones.</p>
+            </div>
+          </article>
+          <article class="card demo">
+            <div class="demo-thumb" aria-hidden="true">
+              <div class="m-line m-title"></div>
+              <div class="m-line"></div>
+              <div class="m-line"></div>
+              <div class="m-btn" style="width:90px;height:26px"></div>
+            </div>
+            <div class="demo-body">
+              <span class="badge">Concepto de demostración</span>
+              <h3>Servicios profesionales</h3>
+              <p>Presentación de servicios, preguntas frecuentes y contacto directo para consultorías, estéticas, oficios y más.</p>
+            </div>
+          </article>
+          <article class="card demo">
+            <div class="demo-thumb" aria-hidden="true">
+              <div class="m-line m-title"></div>
+              <div class="m-grid" style="margin-top:0"><div style="height:44px"></div><div style="height:44px"></div><div style="height:44px"></div></div>
+              <div class="m-line short"></div>
+            </div>
+            <div class="demo-body">
+              <span class="badge">Concepto de demostración</span>
+              <h3>Negocios locales</h3>
+              <p>Un escaparate en línea para tiendas y emprendimientos: productos, ubicación y contacto en un solo lugar.</p>
+            </div>
+          </article>
+        </div>
+        <p class="note">¿Quieres ser el primer proyecto del portafolio? Escríbeme por WhatsApp.</p>
+      </div>
+    </section>
+
+    <!-- ===== F. PRICING ===== -->
+    <section id="pricing" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Precios claros</h2>
+          <p>Un solo paquete para empezar. Sin sorpresas: aquí ves qué incluye y qué se paga aparte.</p>
+        </div>
+        <div class="price-wrap">
+          <div class="price-card">
+            <h3>Paquete inicial</h3>
+            <p class="price-from">Proyectos desde</p>
+            <p class="price-big">$<span data-config="prices.from">1,000</span> MXN</p>
+            <p class="price-range">Rango estimado habitual: $<span data-config="prices.rangeFrom">1,000</span>–$<span data-config="prices.rangeTo">3,000</span> MXN</p>
+            <ul class="checks">
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Diseño del sitio web</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Desarrollo del sitio web</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Diseño adaptable a celular y computadora</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Integración con WhatsApp, cuando aplique</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Integración con Google Maps, cuando aplique</li>
+              <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Publicación inicial del sitio</li>
+            </ul>
+            <p class="callout"><strong>Importante:</strong> este precio cubre únicamente el diseño, el desarrollo y la publicación inicial. La cotización final depende de lo que tu negocio necesite.</p>
+            <a class="btn btn-primary" href="https://wa.me/524426530823" data-whatsapp target="_blank" rel="noopener">Pedir mi cotización</a>
+          </div>
+
+          <div class="extras">
+            <article class="card">
+              <h3>Mantenimiento y cambios pequeños</h3>
+              <p class="extra-price">$<span data-config="prices.maintenanceFrom">200</span>–$<span data-config="prices.maintenanceTo">400</span> MXN al mes</p>
+              <p>Servicio opcional, no incluido en el precio inicial.</p>
+            </article>
+            <article class="card">
+              <h3>Dominio propio</h3>
+              <p class="extra-price">Se paga por separado</p>
+              <p>El registro y la renovación del dominio (por ejemplo, minegocio.com) los paga el cliente. No están incluidos.</p>
+            </article>
+            <article class="card">
+              <h3>Hosting</h3>
+              <p class="extra-price">Gratis con GitHub Pages</p>
+              <p>Se puede usar GitHub Pages como hosting gratuito para sitios estáticos, sujeto a sus términos y límites vigentes.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== G. HOW IT WORKS ===== -->
+    <section id="how" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Cómo funciona</h2>
+          <p>Tres pasos sencillos, con comunicación directa conmigo.</p>
+        </div>
+        <ol class="steps">
+          <li>
+            <h3>Platicamos de tu negocio</h3>
+            <p>Hablamos de lo que haces, a quién quieres llegar y qué necesitas que tu sitio muestre.</p>
+          </li>
+          <li>
+            <h3>Diseño y desarrollo</h3>
+            <p>Diseño y programo tu sitio para que se vea profesional y funcione bien en celular.</p>
+          </li>
+          <li>
+            <h3>Revisamos y publicamos</h3>
+            <p>Revisamos juntos los detalles, hacemos ajustes y publicamos tu sitio en internet.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== D. ABOUT THE FOUNDER (approved copy) ===== -->
+    <section id="about" class="section alt">
+      <div class="container about-grid">
+        <aside class="card founder-card">
+          <div class="monogram" aria-hidden="true">SR</div>
+          <h3 data-config="founder">Serafin Ruiz</h3>
+          <p>Fundador de SitioSpot</p>
+        </aside>
+        <div class="about-text">
+          <h2>Sobre mí</h2>
+          <p class="greeting">Hola, soy <span data-config="founder">Serafin Ruiz</span>.</p>
+          <p>Soy el fundador de SitioSpot, y mi objetivo es ayudar a pequeños negocios y emprendedores a dar el siguiente paso en el mundo digital.</p>
+          <p>Creo que todo negocio merece tener presencia en internet, sin importar su tamaño o presupuesto. Por eso, quiero ofrecer soluciones web modernas, accesibles y prácticas que permitan a más personas mostrar sus servicios, conectar con clientes y hacer crecer sus negocios.</p>
+          <p>Cuando trabajas conmigo, tienes comunicación directa conmigo durante el proceso. Mi compromiso es escuchar tus ideas, entender las necesidades de tu negocio y ayudarte a convertirlas en una presencia profesional en internet.</p>
+          <p class="closing">Tu negocio merece estar en internet. ¡Hagámoslo realidad!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== H. FAQ (<details> works without JavaScript) ===== -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-head"><h2>Preguntas frecuentes</h2></div>
+        <div class="faq">
+          <details>
+            <summary>¿Cuánto tiempo toma hacer un sitio web?</summary>
+            <p>Depende del proyecto y de qué tan pronto tengamos tu información (textos, fotos, menú, etc.). Un sitio sencillo puede estar listo en unos días o un par de semanas. Te doy un estimado cuando conozca lo que necesitas.</p>
+          </details>
+          <details>
+            <summary>¿Incluye dominio propio?</summary>
+            <p>No. El precio inicial no incluye el registro ni la renovación del dominio (por ejemplo, minegocio.com); eso se paga por separado. Mientras tanto, tu sitio puede publicarse gratis en una dirección de GitHub Pages, y podemos conectar tu dominio después si decides comprar uno.</p>
+          </details>
+          <details>
+            <summary>¿Tengo que pagar mantenimiento mensual?</summary>
+            <p>No es obligatorio. Es un servicio opcional de $200–$400 MXN al mes para cambios pequeños y actualizaciones. Si no lo contratas, los cambios futuros se cotizan por separado.</p>
+          </details>
+          <details>
+            <summary>¿Puedo actualizar mi sitio yo mismo?</summary>
+            <p>Tu sitio se construye con código (HTML y CSS), así que cambiar textos o precios implica editar archivos. Si prefieres no hacerlo, el servicio de mantenimiento lo cubre. Y si te interesa, puedo explicarte cómo hacer cambios sencillos.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== I. CONTACT ===== -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="contact-card">
+          <div>
+            <h2>Hablemos de tu sitio web</h2>
+            <p class="muted">La forma más rápida de contactarme es por WhatsApp. Cuéntame de tu negocio y te respondo con ideas y una cotización.</p>
+            <a class="btn btn-primary" href="https://wa.me/524426530823" data-whatsapp target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+              Escribir por WhatsApp
+            </a>
+          </div>
+          <ul class="contact-list">
+            <li><strong>WhatsApp</strong><a href="https://wa.me/524426530823" data-whatsapp target="_blank" rel="noopener"><span data-config="whatsappDisplay">+52 442 653 0823</span></a></li>
+            <!-- Email stays hidden until you add one in config.js -->
+            <li data-email-wrapper hidden><strong>Correo</strong><a href="#" data-email></a></li>
+            <li><strong>Ubicación</strong><span data-config="location">Querétaro, México</span><br>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Quer%C3%A9taro%2C%20M%C3%A9xico" data-maps target="_blank" rel="noopener">Ver Querétaro en Google Maps</a></li>
+            <!-- Social links stay hidden until you add URLs in config.js -->
+            <li>
+              <a href="#" data-social="facebook" hidden target="_blank" rel="noopener">Facebook</a>
+              <a href="#" data-social="instagram" hidden target="_blank" rel="noopener">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== J. FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="#home" aria-label="SitioSpot, inicio">
+            <img src="../images/logo-mark.svg" alt="" width="36" height="36">
+            <span class="wordmark">Sitio<span>Spot</span></span>
+          </a>
+          <p class="muted" style="margin-top:1rem" data-config="slogan">Tu negocio merece estar en internet.</p>
+        </div>
+        <nav aria-label="Pie de página">
+          <ul class="footer-nav">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#pricing">Precios</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+        <p class="muted" data-config="location">Querétaro, México</p>
+      </div>
+      <p class="copyright">© <span data-year>2026</span> <span data-config="businessName">SitioSpot</span>. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- config.js FIRST (defines the data), then main.js (uses it) -->
+  <script src="../js/config.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
