@@ -150,6 +150,8 @@ ul { margin: 0; padding: 0; }
         background:
           radial-gradient(60rem 30rem at 85% -10%, rgba(47, 123, 255, .22), transparent 60%),
           radial-gradient(40rem 25rem at -10% 110%, rgba(11, 95, 255, .14), transparent 60%),
+          linear-gradient(rgba(10, 12, 16, .78), rgba(10, 12, 16, .9)),
+          url("../images/banner.jpg") center / cover no-repeat,
           var(--bg); }
 .hero-grid { display: grid; gap: 3rem; align-items: center; }
 .hero-tag { display: inline-block; color: var(--blue-light); font-weight: 600; font-size: .95rem;
